@@ -1,0 +1,421 @@
+/*================
+ extra small device 
+=================*/
+@media (max-width: 575px){
+    .navbar {
+        background:rgba(226, 62, 56, 0.5);
+        top: 0;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: #fff;
+        color: transparent !important;
+    }
+
+    .navbar .nav-link::before{
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: #ffffff;
+        left: 0;
+        top: 0;
+        z-index: -2;
+    }
+
+    .navbar .navbar-nav .nav-link{
+        color: #333 !important;
+        text-align: center;
+    }
+
+    .navbar .navbar-brand{
+        position: static;
+        transform: skewX(0deg);
+        -webkit-transform: skewX(0deg);
+        -moz-transform: skewX(0deg);
+        -ms-transform: skewX(0deg);
+        -o-transform: skewX(0deg);
+        padding: 0 !important;
+}
+.navbar .navbar-brand img{
+    transform: skewX(0deg);
+    -webkit-transform: skewX(0deg);
+    -moz-transform: skewX(0deg);
+    -ms-transform: skewX(0deg);
+    -o-transform: skewX(0deg);
+}
+
+
+ /*==========
+  nav css end
+  =============*/
+
+  #banner .bg1 h2::before,
+  #banner .bg1 h2::after,
+  #banner .bg1 h3::before,
+  #banner .bg1 h3::after,
+  #banner .bg1 p::before,
+  #banner .bg1 p::after
+  {
+      display: none;
+  }
+
+#banner .bg1 p {
+	padding: 0 0px;
+}
+
+#banner .banner-items h3 {
+	font-size: 24px;
+}
+
+#banner .banner-items h2 {
+	font-size: 48px;
+}
+
+#banner .banner-items {
+	padding-top: 200px;
+	padding-bottom: 120px;
+	
+}
+
+ /*============
+ banner css end 
+  =============*/
+  #about {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#about .abt-text p{
+    padding: 0;
+}
+
+#about .abt-video{
+    margin-top: 20px;
+}
+
+
+ /*============
+ about css end 
+  =============*/
+
+#gallery .gallery-main{
+    padding-top: 10px;
+}
+
+/* ==========
+gallery css end
+==========  */
+#team{
+    padding-top: 30px;
+    padding-bottom: 0;
+}
+
+/* ==========
+Team css end
+==========  */
+#membership {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+/*================
+ membership css end
+ =================  */
+
+ #funfact {
+	text-align: center;
+}
+
+#funfact .fun-item{
+    margin-bottom: 15px;
+}
+
+/*================
+ funfact css end
+ =================  */
+
+ #routine{
+     padding-top: 30px;
+ }
+
+#routine .nav-tabs{
+    flex-direction: column;
+}
+
+#routine .nav-tabs .nav-item{
+    width: 100%;
+}
+
+#routine .routine-holder ul li{
+    width: 100%;
+}
+
+
+/*================
+ routine css end
+ =================  */
+
+ #brand {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+/*================
+ brand css end
+ =================  */
+
+
+footer .footer-main h4:first-of-type {
+	margin-top: 30px !important;
+	margin-bottom: 30px !important;
+}
+
+
+
+
+
+
+
+
+}
+/*================
+ extra small device 
+=================*/
+@media(min-width: 576px) and (max-width:767px){
+    .navbar {
+        background: rgba(53, 53, 53, 0.507);;
+        top: 0;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: #fff;
+        color: transparent !important;
+    }
+
+    .navbar .nav-link::before{
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: #ffffff;
+        left: 0;
+        top: 0;
+        z-index: -2;
+    }
+
+    .navbar .navbar-nav .nav-link{
+        color: #333 !important;
+        text-align: center;
+    }
+
+    .navbar .navbar-brand{
+        position: static;
+        transform: skewX(0deg);
+        -webkit-transform: skewX(0deg);
+        -moz-transform: skewX(0deg);
+        -ms-transform: skewX(0deg);
+        -o-transform: skewX(0deg);
+        padding: 0 !important;
+}
+.navbar .navbar-brand img{
+    transform: skewX(0deg);
+    -webkit-transform: skewX(0deg);
+    -moz-transform: skewX(0deg);
+    -ms-transform: skewX(0deg);
+    -o-transform: skewX(0deg);
+}
+
+
+
+/*=================
+ navbar css end  
+ ====================*/
+
+
+
+#banner .bg1 h2::before,
+#banner .bg1 h2::after,
+#banner .bg1 h3::before,
+#banner .bg1 h3::after,
+#banner .bg1 p::before,
+#banner .bg1 p::after
+{
+    display: none;
+}
+
+#banner .bg1 p {
+	padding: 0 0px;
+}
+
+/*=================
+ banner css end  
+ ====================*/
+ #about {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#about .abt-video{
+    margin-top: 20px;
+}
+
+#about .abt-text p{
+    padding: 0;
+}
+
+#gallery .gallery-main{
+    padding-top: 10px;
+}
+
+
+/*=================
+ about css end  
+ ====================*/
+ #team {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+
+
+/*=================
+ team css end  
+ ====================*/
+
+ #routine .routine-holder ul li{
+    width:50%;
+}
+
+/*=================
+ routine css end  
+ ====================*/
+
+ footer ul li:last-child {
+	margin-bottom: 30px !important;
+}
+
+/*=================
+ footer css end  
+ ====================*/
+
+}
+
+/*================
+ small device 
+=================*/
+@media (min-width:768px) and (max-width:991px){
+    .navbar {
+        background: rgba(53, 53, 53, 0.507);;
+        top: 0;
+    }
+    .navbar-light .navbar-toggler {
+        border-color: #fff;
+        color: transparent !important;
+    }
+
+    .navbar .nav-link::before{
+        content: '';
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        background: #ffffff;
+        left: 0;
+        top: 0;
+        z-index: -2;
+    }
+
+    .navbar .navbar-nav .nav-link{
+        color: #333 !important;
+        text-align: center;
+    }
+
+    .navbar .navbar-brand{
+        position: static;
+        transform: skewX(0deg);
+        -webkit-transform: skewX(0deg);
+        -moz-transform: skewX(0deg);
+        -ms-transform: skewX(0deg);
+        -o-transform: skewX(0deg);
+        padding: 0 !important;
+}
+.navbar .navbar-brand img{
+    transform: skewX(0deg);
+    -webkit-transform: skewX(0deg);
+    -moz-transform: skewX(0deg);
+    -ms-transform: skewX(0deg);
+    -o-transform: skewX(0deg);
+}
+
+/*=================
+ navbar css end  
+ ====================*/
+
+ #banner .bg1 h3::before {
+	content: '';
+	width: 195px;
+
+}
+
+#banner .bg1 h3::after {
+	content: '';
+	width: 165px;
+}
+
+#banner .bg1 p::before {
+	content: '';
+	width: 73px;
+
+}
+#banner .bg1 p::after {
+	content: '';
+	width: 52px;
+}
+
+
+
+/*=================
+ banner css end  
+ ====================*/
+
+ #about {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+
+#about .abt-text p{
+    padding: 0;
+}
+
+#about .abt-video{
+    margin-top: 20px;
+}
+
+
+/*=================
+ about css end  
+ ====================*/
+
+#team {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+
+/*=================
+ team css end  
+ ====================*/
+
+ #membership {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+/*=================
+ membership css end  
+ ====================*/
+
+}
+/*================
+ medium device 
+=================*/
