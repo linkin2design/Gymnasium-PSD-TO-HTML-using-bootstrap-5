@@ -110,32 +110,4 @@ $('.back-to-top').click(function () {
 // wow js 
 new WOW().init();
 
-// Regi from 
-const signUpButton = document.getElementById('signUp');
-const signInButton = document.getElementById('signIn');
-const container = document.getElementById('container');
-
-signUpButton.addEventListener('click', () => {
-    container.classList.add("right-panel-active");
-});
-
-signInButton.addEventListener('click', () => {
-    container.classList.remove("right-panel-active");
-});
-
-
-
-// modal 
-
-var neonButton = document.getElementById('neonButton')
-var model = document.getElementById('modal')
-var close = document.getElementById('close')
-
-neonButton.addEventListener('click', function () {
-    modal.style.display = "flex";
-});
-
-close.addEventListener('click', function () {
-    modal.style.display = "none";
-});
 
