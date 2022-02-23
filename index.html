@@ -77,11 +77,15 @@
                     <li class="nav-item">
                         <a class="nav-link p-0 text-uppercase text-white osw-reg fs-14" href="#footer">contact</a>
                     </li>
+
                 </ul>
+
+                <button class="btn text-uppercase text-white osw-reg fs-14" id="regi" type="submit">
+                    <span href="#exampleModal" class="neon-button osw-reg fs-14" id="neonButton" data-bs-toggle="modal"
+                        data-bs-target="#exampleModal">registration</span>
+                </button>
             </div>
-            <button class="btn text-uppercase text-white osw-reg fs-14" id="regi" type="submit">
-                <a href="#" class="neon-button osw-reg fs-14" id="neonButton">registration</a>
-            </button>
+
         </div>
     </nav>
     <!-- Navbar end -->
@@ -103,7 +107,9 @@
                                     industry. Lorem Ipsum has been the industry's standard dummy text ever since the
                                     1500s
                                 </p>
-                                <a href="#" class="btn btn-outline-light osw-med fs-16 text-uppercase rounded-0">join
+                                <a href="#exampleModal"
+                                    class="btn btn-outline-light osw-med fs-16 text-uppercase rounded-0"
+                                    data-bs-toggle="modal" data-bs-target="#exampleModal">join
                                     now</a>
                                 <a href="#" class="btn btn-outline-light osw-med fs-16 text-uppercase rounded-0">view
                                     more</a>
@@ -127,7 +133,9 @@
                                     industry. Lorem Ipsum has been the industry's standard dummy text ever since the
                                     1500s
                                 </p>
-                                <a href="#" class="btn btn-outline-light osw-med fs-16 text-uppercase rounded-0">join
+                                <a href="#exampleModal"
+                                    class="btn btn-outline-light osw-med fs-16 text-uppercase rounded-0"
+                                    data-bs-toggle="modal" data-bs-target="#exampleModal">join
                                     now</a>
                                 <a href="#" class="btn btn-outline-light osw-med fs-16 text-uppercase rounded-0">view
                                     more</a>
@@ -151,7 +159,9 @@
                                     industry. Lorem Ipsum has been the industry's standard dummy text ever since the
                                     1500s
                                 </p>
-                                <a href="#" class="btn btn-outline-light osw-med fs-16 text-uppercase rounded-0">join
+                                <a href="#exampleModal"
+                                    class="btn btn-outline-light osw-med fs-16 text-uppercase rounded-0"
+                                    data-bs-toggle="modal" data-bs-target="#exampleModal">join
                                     now</a>
                                 <a href="#" class="btn btn-outline-light osw-med fs-16 text-uppercase rounded-0">view
                                     more</a>
@@ -162,6 +172,104 @@
             </div>
         </div>
     </section>
+
+    <!-- modal start  -->
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true"
+        data-bs-backdrop="static">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title osw-bold fs-30 text-capitalize" id="exampleModalLabel">registration now</h5>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+
+                    <div class="col-lg-12 col-md-12 col-12">
+                        <form class="">
+                            <!-- 2 column grid layout with text inputs for the first and last names -->
+                            <div class="row mb-4">
+                                <div class="col">
+                                    <div class="form-outline">
+                                        <input type="text" id="form3Example1" class="form-control " />
+                                        <label class="form-label osw-reg fs-16 th-p text-capitalize"
+                                            for="form3Example1">First
+                                            name</label>
+                                    </div>
+                                </div>
+                                <div class="col">
+                                    <div class="form-outline">
+                                        <input type="text" id="form3Example2" class="form-control" />
+                                        <label class="form-label osw-reg fs-16 th-p text-capitalize"
+                                            for="form3Example2">Last name</label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Email input -->
+                            <div class="form-outline mb-4">
+                                <input type="email" id="form3Example3" class="form-control" />
+                                <label class="form-label osw-reg fs-16 th-p text-capitalize" for="form3Example3">Email
+                                    address</label>
+                            </div>
+
+                            <!-- Password input -->
+                            <div class="form-outline mb-4">
+                                <input type="password" id="form3Example4" class="form-control" />
+                                <label class="form-label osw-reg fs-16 th-p text-capitalize"
+                                    for="form3Example4">Password</label>
+                            </div>
+
+                            <!-- confirm Password input -->
+                            <div class="form-outline mb-4">
+                                <input type="password" id="form3Example5" class="form-control" />
+                                <label class="form-label osw-reg fs-16 th-p text-capitalize" for="form3Example4">confirm
+                                    Password</label>
+                            </div>
+
+                            <!-- Checkbox -->
+                            <div class="form-check d-flex justify-content-center mb-4">
+                                <input class="form-check-input me-2" type="checkbox" value="" id="form2Example33"
+                                    checked />
+                                <label class="form-check-label osw-reg fs-16 th-p text-capitalize" for="form2Example33">
+                                    Subscribe to our newsletter
+                                </label>
+                            </div>
+
+                            <!-- Submit button -->
+                            <button type="submit"
+                                class="btn btn-primary btn-block mb-4 w-100 osw-reg fs-16 th-p text-capitalize">Sign
+                                up</button>
+
+                            <!-- Register buttons -->
+                            <div class="text-center">
+                                <p class="osw-reg fs-16 th-p text-capitalize">or sign up with:</p>
+                                <button type="button" class="btn btn-primary btn-floating mx-1">
+                                    <i class="fab fa-facebook-f"></i>
+                                </button>
+
+                                <button type="button" class="btn btn-primary btn-floating mx-1">
+                                    <i class="fab fa-google"></i>
+                                </button>
+
+                                <button type="button" class="btn btn-primary btn-floating mx-1">
+                                    <i class="fab fa-twitter"></i>
+                                </button>
+
+                                <button type="button" class="btn btn-primary btn-floating mx-1">
+                                    <i class="fab fa-github"></i>
+                                </button>
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- modal end  -->
+
     <!-- banner end -->
     <!-- about start -->
     <Section id="about" class="about wow bounceInUp">
@@ -1297,60 +1405,66 @@
     </div>
     <!-- back to top button end -->
     <!-- Registration From Start  -->
-    <div class="Regi-from" id="modal">
-        <span class="text-white close" id="close">&times;</span>
-        <div class="container" id="container">
-            <div class="form-container sign-up-container">
-                <form action="#">
-                    <h1>Create Account</h1>
-                    <div class="social-container">
-                        <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-                        <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                    <span>or use your email for registration</span>
-                    <input type="text" placeholder="Name" id="userName" />
-                    <small id="userErr"></small>
-                    <input type="email" placeholder="Email" />
-                    <small></small>
-                    <input type="password" placeholder="Password" />
-                    <small></small>
-                    <input type="password" placeholder="Confirm Password" />
-                    <small></small>
-                    <button onclick="return subm();" id="btnn">Sign Up</button>
-                </form>
-            </div>
-            <div class="form-container sign-in-container">
-                <form action="#">
-                    <h1>Sign in</h1>
-                    <div class="social-container">
-                        <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
-                        <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
-                        <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
-                    </div>
-                    <span>or use your account</span>
-                    <input type="email" placeholder="Email" />
-                    <input type="password" placeholder="Password" />
-                    <a href="#">Forgot your password?</a>
-                    <button>Sign In</button>
-                </form>
-            </div>
-            <div class="overlay-container">
-                <div class="overlay">
-                    <div class="overlay-panel overlay-left">
-                        <h1>Welcome Back!</h1>
-                        <p>To keep connected with us please login with your personal info</p>
-                        <button class="ghost" id="signIn">Sign In</button>
-                    </div>
-                    <div class="overlay-panel overlay-right">
-                        <h1>Hello, Friend!</h1>
-                        <p>Enter your personal details and start journey with us</p>
-                        <button class="ghost" id="signUp">Sign Up</button>
+    <!-- <div class="Regi-from" id="modal">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 col-md-12 col-12">
+                    <span class="th-dark close" id="close">&times;</span>
+                    <div class="container" id="container">
+                        <div class="form-container sign-up-container">
+                            <form action="#">
+                                <h1>Create Account</h1>
+                                <div class="social-container">
+                                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                                <span>or use your email for registration</span>
+                                <input type="text" placeholder="Name" id="userName" />
+                                <small id="userErr"></small>
+                                <input type="email" placeholder="Email" />
+                                <small></small>
+                                <input type="password" placeholder="Password" />
+                                <small></small>
+                                <input type="password" placeholder="Confirm Password" />
+                                <small></small>
+                                <button onclick="return subm();" id="btnn">Sign Up</button>
+                            </form>
+                        </div>
+                        <div class="form-container sign-in-container">
+                            <form action="#">
+                                <h1>Sign in</h1>
+                                <div class="social-container">
+                                    <a href="#" class="social"><i class="fab fa-facebook-f"></i></a>
+                                    <a href="#" class="social"><i class="fab fa-google-plus-g"></i></a>
+                                    <a href="#" class="social"><i class="fab fa-linkedin-in"></i></a>
+                                </div>
+                                <span>or use your account</span>
+                                <input type="email" placeholder="Email" />
+                                <input type="password" placeholder="Password" />
+                                <a href="#">Forgot your password?</a>
+                                <button>Sign In</button>
+                            </form>
+                        </div>
+                        <div class="overlay-container">
+                            <div class="overlay">
+                                <div class="overlay-panel overlay-left">
+                                    <h1>Welcome Back!</h1>
+                                    <p>To keep connected with us please login with your personal info</p>
+                                    <button class="ghost" id="signIn">Sign In</button>
+                                </div>
+                                <div class="overlay-panel overlay-right">
+                                    <h1>Hello, Friend!</h1>
+                                    <p>Enter your personal details and start journey with us</p>
+                                    <button class="ghost" id="signUp">Sign Up</button>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+    </div> -->
 
 
     <!-- Registration From end  -->

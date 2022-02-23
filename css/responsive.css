@@ -173,7 +173,16 @@ footer .footer-main h4:first-of-type {
 
 
 
+/*================
+ footer css end
+ =================  */
 
+ .neon-button{
+     display: none;
+ }
+/*================
+ Neao css end
+ =================  */
 
 
 
@@ -299,6 +308,13 @@ footer .footer-main h4:first-of-type {
  footer css end  
  ====================*/
 
+ .neon-button{
+    display: none;
+}
+/*=================
+ regi button css end  
+ ====================*/
+
 }
 
 /*================
@@ -413,6 +429,14 @@ footer .footer-main h4:first-of-type {
 
 /*=================
  membership css end  
+ ====================*/
+
+
+ .neon-button{
+    display: none;
+}
+/*=================
+ regi button css end  
  ====================*/
 
 }
